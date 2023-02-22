@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include "stdio.h"
 
 /**
  * main - prints Holberton
@@ -17,6 +18,6 @@ int main(void)
 	{
 		_putchar(text[i]);
 	}
-	_putchar("\n");
+	printf("\n");
 	return (0);
 }
